@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body id="home">
+    <section id="header">
+      <nav>
+        <div class="items">
+          <ul>
+            <a href="#home"><li>Home</li></a>
+            <a href="#main"><li>About</li></a>
+            <a href="#Skills"><li>Skills</li></a>
+            <a href="#Projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <section id="main">
+      <div class="introduction">
+        <h2>About me</h2>
+        <p id="eyebrow">Hi. Welcome to my,</p>
+        <h1 id="title">Personal Portfolio</h1>
+        <p id="intro">
+          I am a 4th BCA student specialising in machine learning. I am
+          fairly skilled in Data Analysis, Web development and problem-solving
+        </p>
+      </div>
+    </section>
+    <section id="Skills">
+        <h2>Skills</h2>
+        <div class="cards">
+            <div id="card1">
+                <dl>
+                    <dt>Web Development</dt>
+                    <dd>HTML</dd>
+                    <dd>CSS</dd>
+                    <dd>JavaScript</dd>
+                    <dd>PHP</dd>
+                </dl>
+            </div>
+             <div id="card2">
+                <dl>
+                    <dt>Programming</dt>
+                    <dd>C</dd>
+                    <dd>Python</dd>
+                    <dd>Java</dd>
+                </dl>
+            </div>
+             <div id="card3">
+                <dl>
+                    <dt>Frameworks</dt>
+                    <dd>Pandas</dd>
+                    <dd>Numpy</dd>
+                    <dd>Matplot</dd>
+                    <dd>Scikit-learn</dd>
+                </dl>
+            </div>
+        </div>
+    </section>
+    <section id="Projects">
+        <h2>Projects</h2>
+        <div class="cards">
+            <div id="card1">
+                <h1>
+                    Grading system
+                </h1>
+                <p>
+                    Made with HTML, CSS and JavaScript                
+                </p>
+            </div>
+            <div id="card2">
+                <h1>
+                    Calculator
+                </h1>
+                <p>
+                    Made with HTML, CSS and JavaScript                
+                </p>
+            </div>
+        
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact me</h2>
+        <form id="contact-form">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+
+            <label for="contact-email">Email</label>
+            <input id="contact-email" name="email" type="email" autocomplete="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send message</button>
+            <p id="form-response" role="status" aria-live="polite"></p>
+        </form>
+    </section>
+    <section id="footer">
+        <div id="contact-info">
+            <p id="phoneNumber">
+                <span style="font-weight: bolder;">Number: </span>+91 798 292 8889
+            </p>
+            <p id="email">
+                <span style="font-weight: bolder;">Email: </span>ayanbhattacharyya97@gmail.com
+            </p>
+        </div>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/ayan-bhattacharya-838898300?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">LinkedIn</a>
+            <a href="https://github.com/ayanbh191" target="_blank">Github</a>
+        </div>
+        <div class="last-note">
+            <p>&copy; Made by Ayan Bhattacharyya</p>
+        </div>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>
